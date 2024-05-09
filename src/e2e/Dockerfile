@@ -1,4 +1,4 @@
-FROM node:13
+FROM node:21
 
 RUN apt-get update
 RUN apt-get install -y gconf-service libasound2 libatk1.0-0 libatk-bridge2.0-0 \
